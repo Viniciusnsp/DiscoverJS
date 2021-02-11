@@ -9,21 +9,14 @@
     <title>Manipulando a DOM</title>
   </head>
   <body>
+    <header></header>
     <h1 id="blog">Blog do Rogerinho</h1>
 
-    <div class="bloco1" onclick="Modal.open()"></div>
+    <div class="bloco1" onmouseover="Modal.open()"></div>
     <div class="bloco2" onclick="Modal.close()"></div>
 
-    <script>
-      const Modal = {
-        open() {
-          document.querySelector(".bloco1").classList.add("active");
-        },
-        close() {
-          document.querySelector(".bloco1.active").classList.remove("active");
-        },
-      };
-    </script>
+    <input type="text" />
+
     <script src="./scripts.js"></script>
   </body>
 </html>

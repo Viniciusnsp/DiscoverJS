@@ -1,0 +1,35 @@
+body {
+  background: #2b2b2b;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+}
+
+.button button,
+.clickClose {
+  padding: 30px 80px;
+  background: crimson;
+  border-radius: 40px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: absolute;
+  outline-style: none;
+}
+
+.clickClose {
+  background: #fafafa;
+  color: #000;
+  visibility: hidden;
+}
+
+.active {
+  visibility: visible;
+}
